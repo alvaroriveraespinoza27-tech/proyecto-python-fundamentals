@@ -257,7 +257,3 @@ archivos_cargados = files.upload()
 #                 st.rerun()
 #         else:
 #             st.info("No hay registros para eliminar.")
-
-!streamlit run app.py &>/dev/null &
-
-!ssh -o StrictHostKeyChecking=no -R 80:localhost:8501 serveo.net
